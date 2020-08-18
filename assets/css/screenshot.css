@@ -37,13 +37,6 @@
     font-weight: bold;
     position: relative;
   }
-  
-  
-  .outer .form-control[type="number"]::-webkit-inner-spin-button,
-  .outer .form-control[type="number"]::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-  }
 
 .outer .inner .inner2 .inline-group{  
     display:table;
