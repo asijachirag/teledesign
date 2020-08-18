@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Dashboard</title>
+        <link href="css/style.css" rel="stylesheet"/>
+    </head>
+    <body class="page">
+        <div class="grid-container">
+            <header class="header">
+                <div style="width:90%"><img class="headerpic" src="./images/teleworker.png"></div>
+                <div class="headername"><span>John_Doe</span></div>
+                <div><img class="profilepic" src="./images/profile.png"></div>
+            </header>
+            <aside class="sidenav">
+                <ul class="sidenav__list">
+                    <li class="sidenav__list-item">
+                        <a class="sidebar-link"href="./dashboard.html">Dashboard</a>
+                    </li>
+                    <li class="sidenav__list-item"><a class="sidebar-link"href="./home.html">Admin Log</a></li>
+                    <li class="sidenav__list-item"><a class="sidebar-link"href="./userlog.html">User Logs</a></li>
+                    <li class="sidenav__list-item"><a class="sidebar-link"href="./incorrect.html">Incorrect Logins</a></li>
+                    <li class="sidenav__list-item"><a class="sidebar-link"href="./screenshot.html">Set Screenshot Frequency</a></li>
+                    
+                  </ul>
+            </aside>
+            <main class="main">
+                <div class="container-fluid">
+                    <div class="wrap">
+                        <table class="head" cellspacing="0">
+                            <tr style="height:70px">
+                                <td id="admin"style="width:15%">User Logs</td>
+                                <td><input type="search" id="gsearch" name="gsearch" placeholder="Search Logs"></td>
+                                <td style="width:18%">Min Date:  <input id="date" placeholder="MM">/<input id="date" placeholder="DD">/<input id="dateyear" placeholder="YYYY"></td>
+                                <td style="width:18%">Min Date:  <input id="date" placeholder="MM">/<input id="date" placeholder="DD">/<input id="dateyear" placeholder="YYYY"></td>
+                                <td> <input type="submit" id="filter" value="FILTER"></td>
+                                <td> <input type="submit" id="download" value="Download as CSV"></td>
+                            </tr>
+                        </table>
+                        <div class="inner_table">
+                            <table class="tail">
+                            <tr>
+                                <td id="first"><div style="padding-left: 20px;">Timestamp GMT +05:30(IST)</div></td>
+                                <td id="first"><div style="padding-left: 25px;">Level</div></td>
+                                <td id="first"><div style="padding-left: 25px;">IP</div></td>
+                                <td id="first"><div style="padding-left: 25px;">Location</div></td>
+                                <td id="first"><div style="padding-left: 25px;">Login ID</div></td>
+                                <td id="first" style="width:30%"><div style="padding-left: 25px;">Operation</div></td>
+                            </tr>
+                            <tr>
+                                <td><div style="padding-left: 20px;">2020:14:08:12:00</div></td>
+                                <td><div style="padding-left: 25px;">Info</div></td>
+                                <td><div style="padding-left: 25px;">128.12.13</div></td>
+                                <td><div style="padding-left: 25px;">ID</div></td>
+                                <td><div style="padding-left: 25px;">Success</div></td>
+                                <td style="width:30%"><div style="padding-left: 25px;">Message</div></td>
+                            </tr>
+                            <tr>
+                                <td><div style="padding-left: 20px;">2020:14:08:12:00</div></td>
+                                <td><div style="padding-left: 25px;">Info</div></td>
+                                <td><div style="padding-left: 25px;">128.12.13</div></td>
+                                <td><div style="padding-left: 25px;">ID</div></td>
+                                <td><div style="padding-left: 25px;">Success</div></td>
+                                <td style="width:30%"><div style="padding-left: 25px;">Message</div></td>
+                            </tr>
+                            <tr>
+                                <td><div style="padding-left: 20px;">2020:14:08:12:00</div></td>
+                                <td><div style="padding-left: 25px;">Info</div></td>
+                                <td><div style="padding-left: 25px;">128.12.13</div></td>
+                                <td><div style="padding-left: 25px;">ID</div></td>
+                                <td><div style="padding-left: 25px;">Success</div></td>
+                                <td style="width:30%"><div style="padding-left: 25px;">Message</div></td>
+                            </tr>
+                            <tr>
+                                <td><div style="padding-left: 20px;">2020:14:08:12:00</div></td>
+                                <td><div style="padding-left: 25px;">Info</div></td>
+                                <td><div style="padding-left: 25px;">128.12.13</div></td>
+                                <td><div style="padding-left: 25px;">ID</div></td>
+                                <td><div style="padding-left: 25px;">Success</div></td>
+                                <td style="width:30%"><div style="padding-left: 25px;">Message</div></td>
+                            </tr>
+                            <tr>
+                                <td><div style="padding-left: 20px;">2020:14:08:12:00</div></td>
+                                <td><div style="padding-left: 25px;">Info</div></td>
+                                <td><div style="padding-left: 25px;">128.12.13</div></td>
+                                <td><div style="padding-left: 25px;">ID</div></td>
+                                <td><div style="padding-left: 25px;">Success</div></td>
+                                <td style="width:30%"><div style="padding-left: 25px;">Message</div></td>
+                            </tr>
+                            <tr>
+                                <td><div style="padding-left: 20px;">2020:14:08:12:00</div></td>
+                                <td><div style="padding-left: 25px;">Info</div></td>
+                                <td><div style="padding-left: 25px;">128.12.13</div></td>
+                                <td><div style="padding-left: 25px;">ID</div></td>
+                                <td><div style="padding-left: 25px;">Success</div></td>
+                                <td style="width:30%"><div style="padding-left: 25px;">Message</div></td>
+                            </tr>
+                            <tr>
+                                <td><div style="padding-left: 20px;">2020:14:08:12:00</div></td>
+                                <td><div style="padding-left: 25px;">Info</div></td>
+                                <td><div style="padding-left: 25px;">128.12.13</div></td>
+                                <td><div style="padding-left: 25px;">ID</div></td>
+                                <td><div style="padding-left: 25px;">Success</div></td>
+                                <td style="width:30%"><div style="padding-left: 25px;">Message</div></td>
+                            </tr>
+                            <tr>
+                                <td><div style="padding-left: 20px;">2020:14:08:12:00</div></td>
+                                <td><div style="padding-left: 25px;">Info</div></td>
+                                <td><div style="padding-left: 25px;">128.12.13</div></td>
+                                <td><div style="padding-left: 25px;">ID</div></td>
+                                <td><div style="padding-left: 25px;">Success</div></td>
+                                <td style="width:30%"><div style="padding-left: 25px;">Message</div></td>
+                            </tr>
+                            <tr>
+                                <td><div style="padding-left: 20px;">2020:14:08:12:00</div></td>
+                                <td><div style="padding-left: 25px;">Info</div></td>
+                                <td><div style="padding-left: 25px;">128.12.13</div></td>
+                                <td><div style="padding-left: 25px;">ID</div></td>
+                                <td><div style="padding-left: 25px;">Success</div></td>
+                                <td style="width:30%"><div style="padding-left: 25px;">Message</div></td>
+                            </tr><tr>
+                                <td><div style="padding-left: 20px;">2020:14:08:12:00</div></td>
+                                <td><div style="padding-left: 25px;">Info</div></td>
+                                <td><div style="padding-left: 25px;">128.12.13</div></td>
+                                <td><div style="padding-left: 25px;">ID</div></td>
+                                <td><div style="padding-left: 25px;">Success</div></td>
+                                <td style="width:30%"><div style="padding-left: 25px;">Message</div></td>
+                            </tr>
+                            <tr>
+                                <td><div style="padding-left: 20px;">2020:14:08:12:00</div></td>
+                                <td><div style="padding-left: 25px;">Info</div></td>
+                                <td><div style="padding-left: 25px;">128.12.13</div></td>
+                                <td><div style="padding-left: 25px;">ID</div></td>
+                                <td><div style="padding-left: 25px;">Success</div></td>
+                                <td style="width:30%"><div style="padding-left: 25px;">Message</div></td>
+                            </tr>
+                            <tr>
+                                <td><div style="padding-left: 20px;">2020:14:08:12:00</div></td>
+                                <td><div style="padding-left: 25px;">Info</div></td>
+                                <td><div style="padding-left: 25px;">128.12.13</div></td>
+                                <td><div style="padding-left: 25px;">ID</div></td>
+                                <td><div style="padding-left: 25px;">Success</div></td>
+                                <td style="width:30%"><div style="padding-left: 25px;">Message</div></td>
+                            </tr>
+                            <tr>
+                                <td><div style="padding-left: 20px;">2020:14:08:12:00</div></td>
+                                <td><div style="padding-left: 25px;">Info</div></td>
+                                <td><div style="padding-left: 25px;">128.12.13</div></td>
+                                <td><div style="padding-left: 25px;">ID</div></td>
+                                <td><div style="padding-left: 25px;">Success</div></td>
+                                <td style="width:30%"><div style="padding-left: 25px;">Message</div></td>
+                            </tr>
+                             </table>
+                            <!-- <table class="tail">
+                                <tr>
+                                    <td id="last"><div style="padding-left: 10px;">2020:14:08:12:00</div></td>
+                                    <td id="last"><div style="padding-left: 10px;">Info</div></td>
+                                    <td id="last"><div style="padding-left: 10px;">128.12.13</div></td>
+                                    <td id="last"><div style="padding-left: 10px;">ID</div></td>
+                                    <td id="last"><div style="padding-left: 10px;">Sucess</div></td>
+                                    <td id="last" style="width:20%"><div style="padding-left: 10px;">Message</div></td>
+                                </tr>
+                            </table> -->
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <footer class="footer"></footer>
+          </div>
+    </body>
+</html>
